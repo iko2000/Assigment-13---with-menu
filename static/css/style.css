@@ -1,0 +1,577 @@
+@font-face {
+  font-family: helvicita;
+  src: url("../fonts/Helvetica.ttf");
+}
+
+:root {
+  --primary-color: #ee4967;
+}
+
+nav {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: helvicita;
+}
+
+ul div {
+  display: flex;
+}
+
+.header-center {
+  width: 40%;
+  height: 5rem;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10%;
+}
+
+.header-icons {
+  width: 20%;
+  height: 5rem;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15%;
+}
+.baner {
+  width: 20%;
+  height: 5rem;
+  background-image: url("../images/xx.PNG");
+  background-repeat: no-repeat;
+}
+
+/* Styling for section1 */
+
+#section1 {
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: helvicita;
+  background-image: url("../images/k6Vduo5mx642daoWyTJc.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section1-head {
+  width: 80%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.section1-head div {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}
+.section1-head a {
+  width: 40%;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.section1-pos {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.section1-h1 {
+  width: 50%;
+  height: 20%;
+  display: grid;
+  place-items: center;
+}
+.section1-foot {
+  width: 100%;
+  height: 10%;
+  display: grid;
+  place-items: center;
+}
+
+/* Styling for section2 */
+
+#section2 {
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: helvicita;
+}
+.boxer {
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+
+.info-box {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15%;
+  justify-content: center;
+  align-items: center;
+}
+.info-box button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  width: 100px;
+  height: 40px;
+}
+.info-box div {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  display: grid;
+  place-items: center;
+}
+.sides {
+  width: 12.5%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Section 3 Styling */
+#section3 {
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: helvicita;
+}
+
+/* Section 4 Styling  */
+
+#section4 {
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: helvicita;
+}
+
+.section4-head {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section4-body {
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+
+.sec4-box {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec4-box div {
+  width: 80px;
+  height: 80px;
+  background-color: var(--primary-color);
+  display: grid;
+  place-items: center;
+}
+
+/* Styling for section 5 */
+#section5 {
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: helvicita;
+}
+
+.sec5-header {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec5-mini-header {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec5-body {
+  width: 100%;
+  height: 70%;
+  display: flex;
+}
+
+.sec5-box {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.cus-s {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+}
+.cus-end img {
+  background-color: #fff626;
+  width: 20px;
+  height: 20px;
+}
+.customer-pic img {
+  margin-right: 20px;
+}
+/* Styling of Footer */
+
+footer {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  background-color: var(--primary-color);
+}
+
+.footer1 {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+
+.footer1 form {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: white;
+}
+
+.footer1 input {
+  border: none;
+}
+.footer1 div {
+  width: 60%;
+  display: flex;
+  gap: 20px;
+}
+
+.footer2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-lis {
+  width: 100%;
+  height: 70%;
+  display: flex;
+}
+li {
+  list-style: none;
+}
+.footer-lis div {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.footer-lis div:nth-child(1) {
+  width: 40%;
+  align-items: flex-end;
+}
+.footer-banners {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.footer3 {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+
+.footer3 div:nth-child(1) {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 13%;
+}
+.footer3 div:nth-child(1) li {
+  color: white;
+}
+
+.footer3 div:nth-child(2) {
+  width: 100%;
+  height: 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20%;
+}
+
+.footer3 div:nth-child(2) li {
+  color: white;
+}
+
+/* Styling for cotnact US */
+
+a {
+  text-decoration: none;
+  color: black;
+}
+#contact {
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-box {
+  width: 90%;
+  height: 90%;
+  display: flex;
+}
+
+.info-side {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+.info-side div {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 80%;
+}
+address {
+  color: white;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.contact-content {
+  width: 70%;
+  height: 100%;
+}
+.content {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  gap: 10%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content-txt {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content div {
+  width: 30%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.content-txt input {
+  width: 85%;
+  height: 80%;
+}
+
+.button-space {
+  width: 100%;
+  height: 10%;
+}
+
+.btn-send {
+  width: 200px;
+  height: 50px;
+  float: right;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Styling for burger MENU  */
+
+.burger {
+  width: 20px;
+  height: 15px;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+}
+
+.burger div {
+  width: 20px;
+  height: 5px;
+  border-bottom: 5px solid black;
+}
+
+.active {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+@media only screen and (max-width: 700px) {
+  footer {
+    display: none;
+  }
+  li {
+    font-size: 12px;
+  }
+  .baner {
+    display: none;
+  }
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 120px;
+  }
+  .section1-head div {
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+    gap: 10px;
+  }
+  .contact-box {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    font-size: 10px;
+  }
+  .contact-box address {
+    font-size: 10px;
+  }
+
+  .btn-send {
+    width: 100px;
+    height: 25px;
+    float: right;
+  }
+  address {
+    gap: 10px;
+    align-items: center;
+  }
+  .sec5-box {
+    font-size: 10px;
+  }
+  .sec5-body {
+    display: block;
+    width: 80%;
+  }
+  .sec5-box {
+    width: 100%;
+    height: 33%;
+  }
+  #section2 {
+    font-size: 10px;
+  }
+  #section3 {
+    font-size: 10px;
+  }
+  #section4 {
+    font-size: 10px;
+  }
+  .info-box button {
+    width: 90px;
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .header-center {
+    display: none;
+  }
+  .burger {
+    opacity: 1;
+    margin-top: 20px;
+  }
+  .info-box {
+    width: 20%;
+
+  }
+}
